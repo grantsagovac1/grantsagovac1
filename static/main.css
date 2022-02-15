@@ -55,6 +55,13 @@ body {
             border-radius: 6px;
   }
   
+  h1 {
+text-align: center;
+
+
+  }
+
+
   h2 {
     font-size: 3em;
     margin-top: 40px;
