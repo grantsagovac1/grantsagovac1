@@ -2,7 +2,7 @@
 <html>
   <head>
       <title>Grants First Website</title>
-      <link rel="stylesheet" href="{{url_for('static',filename='main.css')}}">
+      <link rel="stylesheet">
   </head>
   <body>
     <header>
@@ -10,16 +10,34 @@
         <h1 class="logo">Grant's Website Coded with HTML and CSS</h1>
         <strong><nav>
           <ul class="menu">
-            <li><a href="{{ url_for('home') }}">Home</a></li>
-            <li><a href="{{ url_for('about') }}">About</a></li>
-            <li><a href="{{ url_for('Land_Cruiser') }}">My Land Cruiser Story</a></li>
+            <li><a href="{{ url_for('home') }}">Home</a></li><br>
+            <li><a href="{{ url_for('about') }}">About</a></li><br>
+            <li><a href="{{ url_for('Land_Cruiser') }}">My Land Cruiser Story</a></li><br>
+            <li><a href="{{ url_for('about_me') }}">Click here to learn about us</a></li><br>
           </ul>
         </nav></strong>
       </div>
     </header>
-    <div class="container">
-        {%block content%}
-        {%endblock%}
-    </div>
+    <p>Hello Everyone! This is my first website project I am coding.
+
+    </p>
+    <img src="http://consumerguide.com/wp-content/uploads/2014/07/97806061990415.jpg">this is the beautiful lx 450</a>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </body>
 </html>

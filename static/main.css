@@ -3,6 +3,12 @@ body {
     padding: 1;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: rgb(211, 185, 35);
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 30px;
+
   }
   
   /*
@@ -10,23 +16,25 @@ body {
    */
   
   header {
-    background-color: #df8787;
+    background-color: #ff0000;
     height: 75px;
-    width: 200%;
+    width: 100%;
     opacity: .9;
     margin-bottom: 10px;
+    font-size: 2px;
   }
   
   header h1.logo {
     margin: 0;
     font-size: +5;
-    color: #fff;
+    color: rgb(12, 5, 5);
     text-transform: uppercase;
     float: left;
+    padding: 5px;
   }
   
   header h1.logo:hover {
-    color: #fff;
+    color: rgb(19, 48, 3);
     text-decoration: none;
   }
   
@@ -35,13 +43,13 @@ body {
    */
   
   .container {
-    width: 1200px;
+    width: 50px;
     margin: 0 auto;
   }
   
   div.home {
     padding: 10px 0 30px 0;
-    background-color: #E6E6FA;
+    background-color: #fcc00f;
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
@@ -49,14 +57,14 @@ body {
   
   div.about {
     padding: 10px 0 30px 0;
-    background-color: #E6E6FA;
+    background-color: #0a0a70;
     -webkit-border-radius: 6px;
        -moz-border-radius: 6px;
             border-radius: 6px;
   }
-  
+
   h1 {
-text-align: center;
+    text-align: center;
 
 
   }
